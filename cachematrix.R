@@ -1,7 +1,7 @@
-## Put comments here that give an overall description of what your
+## Implementation of a spectial version of matrix that cache the matrix inverse
 ## functions do
 
-## Write a short comment describing this function
+## Cached Matrix definition
 
 makeCacheMatrix <- function(x = matrix()) {
     solveMatrix <- NULL
@@ -18,7 +18,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## Calculation and caching the inverse of a matrix
 
 cacheSolve <- function(x, ...) {
     m <- x$get()
